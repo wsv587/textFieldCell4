@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="111" id="KGk-i7-Jjw" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLW-ou-Q1k">
+                        <rect key="frame" x="10" y="10" width="80" height="90"/>
+                        <color key="backgroundColor" red="0.89735697469115561" green="0.56246895677580355" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="Ury-j5-G0h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入内容" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mq9-CV-1f1" customClass="CustomTextField">
+                        <rect key="frame" x="90" y="10" width="220" height="90"/>
+                        <color key="backgroundColor" red="0.30643222839425166" green="1" blue="0.42527955732638223" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="BLW-ou-Q1k" secondAttribute="bottom" constant="10" id="N3F-fK-Y3z"/>
+                    <constraint firstItem="Mq9-CV-1f1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="SLP-kH-buI"/>
+                    <constraint firstAttribute="trailing" secondItem="Mq9-CV-1f1" secondAttribute="trailing" constant="10" id="UkI-nx-la2"/>
+                    <constraint firstItem="BLW-ou-Q1k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="fAt-Ag-E3v"/>
+                    <constraint firstAttribute="bottom" secondItem="Mq9-CV-1f1" secondAttribute="bottom" constant="10" id="iYe-I0-WfO"/>
+                    <constraint firstItem="Mq9-CV-1f1" firstAttribute="leading" secondItem="BLW-ou-Q1k" secondAttribute="trailing" id="kJ8-n6-18w"/>
+                    <constraint firstItem="BLW-ou-Q1k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="kMs-5a-ACN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentTextField" destination="Mq9-CV-1f1" id="CBm-fP-C13"/>
+                <outlet property="titleLabel" destination="BLW-ou-Q1k" id="64U-8L-GfC"/>
+            </connections>
+            <point key="canvasLocation" x="299" y="243.5"/>
+        </tableViewCell>
+    </objects>
+</document>

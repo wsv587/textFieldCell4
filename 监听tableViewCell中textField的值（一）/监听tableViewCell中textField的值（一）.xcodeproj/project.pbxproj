@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FE4311A1CD894CB00B69559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE431191CD894CB00B69559 /* main.m */; };
+		6FE4311D1CD894CB00B69559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4311C1CD894CB00B69559 /* AppDelegate.m */; };
+		6FE431231CD894CB00B69559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE431211CD894CB00B69559 /* Main.storyboard */; };
+		6FE431251CD894CB00B69559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE431241CD894CB00B69559 /* Assets.xcassets */; };
+		6FE431281CD894CB00B69559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE431261CD894CB00B69559 /* LaunchScreen.storyboard */; };
+		6FE431331CD894CB00B69559 /* __tableViewCell_textField_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE431321CD894CB00B69559 /* __tableViewCell_textField_____Tests.m */; };
+		6FE4313E1CD894CB00B69559 /* __tableViewCell_textField_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4313D1CD894CB00B69559 /* __tableViewCell_textField_____UITests.m */; };
+		6FE4314D1CD894FB00B69559 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4314C1CD894FB00B69559 /* TableViewController.m */; };
+		6FE431511CD8953F00B69559 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4314F1CD8953F00B69559 /* TableViewCell.m */; };
+		6FE431521CD8953F00B69559 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FE431501CD8953F00B69559 /* TableViewCell.xib */; };
+		6FE431551CD8A55E00B69559 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE431541CD8A55E00B69559 /* CustomTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FE4312F1CD894CB00B69559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE4310D1CD894CB00B69559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE431141CD894CB00B69559;
+			remoteInfo = "监听tableViewCell中textField的值（一）";
+		};
+		6FE4313A1CD894CB00B69559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE4310D1CD894CB00B69559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE431141CD894CB00B69559;
+			remoteInfo = "监听tableViewCell中textField的值（一）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FE431151CD894CB00B69559 /* 监听tableViewCell中textField的值（一）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "监听tableViewCell中textField的值（一）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE431191CD894CB00B69559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FE4311B1CD894CB00B69559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FE4311C1CD894CB00B69559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FE431221CD894CB00B69559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FE431241CD894CB00B69559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FE431271CD894CB00B69559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FE431291CD894CB00B69559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE4312E1CD894CB00B69559 /* 监听tableViewCell中textField的值（一）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "监听tableViewCell中textField的值（一）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE431321CD894CB00B69559 /* __tableViewCell_textField_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__tableViewCell_textField_____Tests.m"; sourceTree = "<group>"; };
+		6FE431341CD894CB00B69559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE431391CD894CB00B69559 /* 监听tableViewCell中textField的值（一）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "监听tableViewCell中textField的值（一）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE4313D1CD894CB00B69559 /* __tableViewCell_textField_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__tableViewCell_textField_____UITests.m"; sourceTree = "<group>"; };
+		6FE4313F1CD894CB00B69559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE4314B1CD894FB00B69559 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		6FE4314C1CD894FB00B69559 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		6FE4314E1CD8953F00B69559 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		6FE4314F1CD8953F00B69559 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		6FE431501CD8953F00B69559 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		6FE431531CD8A55E00B69559 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		6FE431541CD8A55E00B69559 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FE431121CD894CB00B69559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE4312B1CD894CB00B69559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE431361CD894CB00B69559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FE4310C1CD894CB00B69559 = {
+			isa = PBXGroup;
+			children = (
+				6FE431171CD894CB00B69559 /* 监听tableViewCell中textField的值（一） */,
+				6FE431311CD894CB00B69559 /* 监听tableViewCell中textField的值（一）Tests */,
+				6FE4313C1CD894CB00B69559 /* 监听tableViewCell中textField的值（一）UITests */,
+				6FE431161CD894CB00B69559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FE431161CD894CB00B69559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FE431151CD894CB00B69559 /* 监听tableViewCell中textField的值（一）.app */,
+				6FE4312E1CD894CB00B69559 /* 监听tableViewCell中textField的值（一）Tests.xctest */,
+				6FE431391CD894CB00B69559 /* 监听tableViewCell中textField的值（一）UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE431171CD894CB00B69559 /* 监听tableViewCell中textField的值（一） */ = {
+			isa = PBXGroup;
+			children = (
+				6FE4311B1CD894CB00B69559 /* AppDelegate.h */,
+				6FE4311C1CD894CB00B69559 /* AppDelegate.m */,
+				6FE4314B1CD894FB00B69559 /* TableViewController.h */,
+				6FE4314C1CD894FB00B69559 /* TableViewController.m */,
+				6FE4314E1CD8953F00B69559 /* TableViewCell.h */,
+				6FE4314F1CD8953F00B69559 /* TableViewCell.m */,
+				6FE431501CD8953F00B69559 /* TableViewCell.xib */,
+				6FE431531CD8A55E00B69559 /* CustomTextField.h */,
+				6FE431541CD8A55E00B69559 /* CustomTextField.m */,
+				6FE431211CD894CB00B69559 /* Main.storyboard */,
+				6FE431241CD894CB00B69559 /* Assets.xcassets */,
+				6FE431261CD894CB00B69559 /* LaunchScreen.storyboard */,
+				6FE431291CD894CB00B69559 /* Info.plist */,
+				6FE431181CD894CB00B69559 /* Supporting Files */,
+			);
+			path = "监听tableViewCell中textField的值（一）";
+			sourceTree = "<group>";
+		};
+		6FE431181CD894CB00B69559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FE431191CD894CB00B69559 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FE431311CD894CB00B69559 /* 监听tableViewCell中textField的值（一）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE431321CD894CB00B69559 /* __tableViewCell_textField_____Tests.m */,
+				6FE431341CD894CB00B69559 /* Info.plist */,
+			);
+			path = "监听tableViewCell中textField的值（一）Tests";
+			sourceTree = "<group>";
+		};
+		6FE4313C1CD894CB00B69559 /* 监听tableViewCell中textField的值（一）UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE4313D1CD894CB00B69559 /* __tableViewCell_textField_____UITests.m */,
+				6FE4313F1CD894CB00B69559 /* Info.plist */,
+			);
+			path = "监听tableViewCell中textField的值（一）UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FE431141CD894CB00B69559 /* 监听tableViewCell中textField的值（一） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE431421CD894CB00B69559 /* Build configuration list for PBXNativeTarget "监听tableViewCell中textField的值（一）" */;
+			buildPhases = (
+				6FE431111CD894CB00B69559 /* Sources */,
+				6FE431121CD894CB00B69559 /* Frameworks */,
+				6FE431131CD894CB00B69559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "监听tableViewCell中textField的值（一）";
+			productName = "监听tableViewCell中textField的值（一）";
+			productReference = 6FE431151CD894CB00B69559 /* 监听tableViewCell中textField的值（一）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FE4312D1CD894CB00B69559 /* 监听tableViewCell中textField的值（一）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE431451CD894CB00B69559 /* Build configuration list for PBXNativeTarget "监听tableViewCell中textField的值（一）Tests" */;
+			buildPhases = (
+				6FE4312A1CD894CB00B69559 /* Sources */,
+				6FE4312B1CD894CB00B69559 /* Frameworks */,
+				6FE4312C1CD894CB00B69559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE431301CD894CB00B69559 /* PBXTargetDependency */,
+			);
+			name = "监听tableViewCell中textField的值（一）Tests";
+			productName = "监听tableViewCell中textField的值（一）Tests";
+			productReference = 6FE4312E1CD894CB00B69559 /* 监听tableViewCell中textField的值（一）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FE431381CD894CB00B69559 /* 监听tableViewCell中textField的值（一）UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE431481CD894CB00B69559 /* Build configuration list for PBXNativeTarget "监听tableViewCell中textField的值（一）UITests" */;
+			buildPhases = (
+				6FE431351CD894CB00B69559 /* Sources */,
+				6FE431361CD894CB00B69559 /* Frameworks */,
+				6FE431371CD894CB00B69559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE4313B1CD894CB00B69559 /* PBXTargetDependency */,
+			);
+			name = "监听tableViewCell中textField的值（一）UITests";
+			productName = "监听tableViewCell中textField的值（一）UITests";
+			productReference = 6FE431391CD894CB00B69559 /* 监听tableViewCell中textField的值（一）UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FE4310D1CD894CB00B69559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = alibaba;
+				TargetAttributes = {
+					6FE431141CD894CB00B69559 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = PT5M85RBBU;
+					};
+					6FE4312D1CD894CB00B69559 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = PT5M85RBBU;
+						TestTargetID = 6FE431141CD894CB00B69559;
+					};
+					6FE431381CD894CB00B69559 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = PT5M85RBBU;
+						TestTargetID = 6FE431141CD894CB00B69559;
+					};
+				};
+			};
+			buildConfigurationList = 6FE431101CD894CB00B69559 /* Build configuration list for PBXProject "监听tableViewCell中textField的值（一）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FE4310C1CD894CB00B69559;
+			productRefGroup = 6FE431161CD894CB00B69559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FE431141CD894CB00B69559 /* 监听tableViewCell中textField的值（一） */,
+				6FE4312D1CD894CB00B69559 /* 监听tableViewCell中textField的值（一）Tests */,
+				6FE431381CD894CB00B69559 /* 监听tableViewCell中textField的值（一）UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FE431131CD894CB00B69559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE431281CD894CB00B69559 /* LaunchScreen.storyboard in Resources */,
+				6FE431521CD8953F00B69559 /* TableViewCell.xib in Resources */,
+				6FE431251CD894CB00B69559 /* Assets.xcassets in Resources */,
+				6FE431231CD894CB00B69559 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE4312C1CD894CB00B69559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE431371CD894CB00B69559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FE431111CD894CB00B69559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE4311D1CD894CB00B69559 /* AppDelegate.m in Sources */,
+				6FE431511CD8953F00B69559 /* TableViewCell.m in Sources */,
+				6FE4314D1CD894FB00B69559 /* TableViewController.m in Sources */,
+				6FE431551CD8A55E00B69559 /* CustomTextField.m in Sources */,
+				6FE4311A1CD894CB00B69559 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE4312A1CD894CB00B69559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE431331CD894CB00B69559 /* __tableViewCell_textField_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE431351CD894CB00B69559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE4313E1CD894CB00B69559 /* __tableViewCell_textField_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FE431301CD894CB00B69559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE431141CD894CB00B69559 /* 监听tableViewCell中textField的值（一） */;
+			targetProxy = 6FE4312F1CD894CB00B69559 /* PBXContainerItemProxy */;
+		};
+		6FE4313B1CD894CB00B69559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE431141CD894CB00B69559 /* 监听tableViewCell中textField的值（一） */;
+			targetProxy = 6FE4313A1CD894CB00B69559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FE431211CD894CB00B69559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE431221CD894CB00B69559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FE431261CD894CB00B69559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE431271CD894CB00B69559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FE431401CD894CB00B69559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FE431411CD894CB00B69559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FE431431CD894CB00B69559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "监听tableViewCell中textField的值（一）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alibaba.--tableViewCell-textField-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FE431441CD894CB00B69559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "监听tableViewCell中textField的值（一）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alibaba.--tableViewCell-textField-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FE431461CD894CB00B69559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "监听tableViewCell中textField的值（一）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alibaba.--tableViewCell-textField-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/监听tableViewCell中textField的值（一）.app/监听tableViewCell中textField的值（一）";
+			};
+			name = Debug;
+		};
+		6FE431471CD894CB00B69559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "监听tableViewCell中textField的值（一）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alibaba.--tableViewCell-textField-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/监听tableViewCell中textField的值（一）.app/监听tableViewCell中textField的值（一）";
+			};
+			name = Release;
+		};
+		6FE431491CD894CB00B69559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "监听tableViewCell中textField的值（一）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alibaba.--tableViewCell-textField-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "监听tableViewCell中textField的值（一）";
+			};
+			name = Debug;
+		};
+		6FE4314A1CD894CB00B69559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "监听tableViewCell中textField的值（一）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alibaba.--tableViewCell-textField-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "监听tableViewCell中textField的值（一）";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FE431101CD894CB00B69559 /* Build configuration list for PBXProject "监听tableViewCell中textField的值（一）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE431401CD894CB00B69559 /* Debug */,
+				6FE431411CD894CB00B69559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE431421CD894CB00B69559 /* Build configuration list for PBXNativeTarget "监听tableViewCell中textField的值（一）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE431431CD894CB00B69559 /* Debug */,
+				6FE431441CD894CB00B69559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE431451CD894CB00B69559 /* Build configuration list for PBXNativeTarget "监听tableViewCell中textField的值（一）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE431461CD894CB00B69559 /* Debug */,
+				6FE431471CD894CB00B69559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE431481CD894CB00B69559 /* Build configuration list for PBXNativeTarget "监听tableViewCell中textField的值（一）UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE431491CD894CB00B69559 /* Debug */,
+				6FE4314A1CD894CB00B69559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FE4310D1CD894CB00B69559 /* Project object */;
+}
