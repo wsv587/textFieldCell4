@@ -62,7 +62,6 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
     TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    cell.contentTextField.indexPath = indexPath;
     
     return cell;
 }

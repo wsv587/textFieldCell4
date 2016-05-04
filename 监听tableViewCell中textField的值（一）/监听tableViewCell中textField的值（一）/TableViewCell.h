@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-@class CustomTextField;
 
 @interface TableViewCell : UITableViewCell
 /**
@@ -18,7 +17,7 @@
 /**
  *  cell的文本框
  */
-@property (weak, nonatomic) IBOutlet CustomTextField *contentTextField;
+@property (weak, nonatomic) IBOutlet UITextField *contentTextField;
 
 /**
  *  block 参数为textField.text

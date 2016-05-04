@@ -7,7 +7,6 @@
 //
 
 #import "TableViewCell.h"
-#import "CustomTextField.h"
 
 @interface TableViewCell ()
 
@@ -30,7 +29,7 @@
 }
 
 #pragma mark - private method
-- (void)textfieldTextDidChange:(CustomTextField *)textField
+- (void)textfieldTextDidChange:(UITextField *)textField
 {
     self.block(self.contentTextField.text);
 }
