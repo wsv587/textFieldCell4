@@ -23,15 +23,16 @@
 // 注意：不是 UIControlEventValueChanged
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
-    [self.contentTextField becomeFirstResponder];
+#pragma mark - private method
+- (void)textfieldTextDidChange:(UITextField *)textField {
+    if (self.block) {
+        self.block(self.contentTextField.text);
+    }
 }
 
-#pragma mark - private method
-- (void)textfieldTextDidChange:(UITextField *)textField
-{
-    self.block(self.contentTextField.text);
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.contentTextField becomeFirstResponder];
 }
 
 @end
